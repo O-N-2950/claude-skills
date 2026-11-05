@@ -1,0 +1,186 @@
+{
+  "schema": "neo.skill-catalog.v1",
+  "count": 30,
+  "skills": [
+    {
+      "name": "backend-architect",
+      "path": "backend-architect/SKILL.md",
+      "sha256": "03053d49715378eca1f4bb12cd91bc9f2cf450ff75591c6ffe3398651102c530",
+      "bytes": 18336
+    },
+    {
+      "name": "code-reviewer",
+      "path": "code-reviewer/SKILL.md",
+      "sha256": "45c291695b0927fc286f1f961326dd0c385ee74d929db92f544cb90a3dd6b3c0",
+      "bytes": 8415
+    },
+    {
+      "name": "cold-email",
+      "path": "cold-email/SKILL.md",
+      "sha256": "95f710a596c488b0e3ecc51bb5d5b1db8fa589251bbf8ad0f58169797eca89ab",
+      "bytes": 7189
+    },
+    {
+      "name": "database-architect",
+      "path": "database-architect/SKILL.md",
+      "sha256": "892092d9e5e161fd5d489de6cf288b177ff1f73235f7a868e235ec18e777d47d",
+      "bytes": 16763
+    },
+    {
+      "name": "debugger",
+      "path": "debugger/SKILL.md",
+      "sha256": "eb40e4f488b8135382acadcd8d102795b7da4fb0c720d64dc4b96a75a71fd346",
+      "bytes": 784
+    },
+    {
+      "name": "deployment-validator",
+      "path": "deployment-validator/SKILL.md",
+      "sha256": "7ed5e4990488958fb2c6d7971d9ea46ae1edeeb1cc4af09cfb91e14bf391b99c",
+      "bytes": 7726
+    },
+    {
+      "name": "finishing-a-development-branch",
+      "path": "finishing-a-development-branch/SKILL.md",
+      "sha256": "dd2f82c6dc8582b621f9eb57fcb65f557f88eadf872727ac81d0840ae12c504e",
+      "bytes": 4250
+    },
+    {
+      "name": "frontend-developer",
+      "path": "frontend-developer/SKILL.md",
+      "sha256": "843a968729ea437b28bbf7a1d2da4183f7aa12e58f62595955b4dba445967fa7",
+      "bytes": 6760
+    },
+    {
+      "name": "invoice-organizer",
+      "path": "invoice-organizer/SKILL.md",
+      "sha256": "62198235231376cb09bc28bd601fb120d3ef24b3ddb55c4b71965f9044352fda",
+      "bytes": 12010
+    },
+    {
+      "name": "lead-research-assistant",
+      "path": "lead-research-assistant/SKILL.md",
+      "sha256": "5b6a21b21d4a4bfd3ae0a07746261e0675212c12781e4846a8bb1b1f5386c73f",
+      "bytes": 6587
+    },
+    {
+      "name": "owasp-security",
+      "path": "owasp-security/SKILL.md",
+      "sha256": "a322807d668c126d856aab4794cb47e46a2d3205c624fed6cd61a747a6aae11a",
+      "bytes": 17064
+    },
+    {
+      "name": "payment-integration",
+      "path": "payment-integration/SKILL.md",
+      "sha256": "59d17b7c994db0579c46f286731880e2a16da59edde58fb4237915c05ab798fe",
+      "bytes": 3125
+    },
+    {
+      "name": "performance-engineer",
+      "path": "performance-engineer/SKILL.md",
+      "sha256": "e21529f4bc41aca7e7d1e16981e2cb90002231c1f6a4fbc9f12d385bb83481f5",
+      "bytes": 10360
+    },
+    {
+      "name": "postgres",
+      "path": "postgres/SKILL.md",
+      "sha256": "64daa75905918bc8b2914d3464f5fbdfb0e291cc65f5e8eeae5abc0784e5689c",
+      "bytes": 3900
+    },
+    {
+      "name": "postgres-best-practices",
+      "path": "postgres-best-practices/SKILL.md",
+      "sha256": "8e5a86aa92990a706512a6454e3a6a6345a950b454e75a11d048210d0a2ca830",
+      "bytes": 2577
+    },
+    {
+      "name": "pricing-strategy",
+      "path": "pricing-strategy/SKILL.md",
+      "sha256": "e049d919778199f0f33e09e4bb08f9331edd821ec32503c5b919725696ca92b3",
+      "bytes": 7050
+    },
+    {
+      "name": "react-frontend",
+      "path": "react-frontend/SKILL.md",
+      "sha256": "94331e4020ce8d5251ce3f9733c36de1ecc9bd855e3c208a69ea9e9b288a2bbd",
+      "bytes": 3294
+    },
+    {
+      "name": "referral-program",
+      "path": "referral-program/SKILL.md",
+      "sha256": "b84708a01d428290c7a24c74b7e2522168e198143142fcc862e69c7f4a1190f3",
+      "bytes": 7248
+    },
+    {
+      "name": "security-auditor",
+      "path": "security-auditor/SKILL.md",
+      "sha256": "92b708db4d3a2a58c0d96702ad76c1cc23f352a60c513b24b643d5ec5225f7b2",
+      "bytes": 9594
+    },
+    {
+      "name": "seo-audit",
+      "path": "seo-audit/SKILL.md",
+      "sha256": "94b91d7f70d6941ed776d94babb6cec9af94fe9dbe2ce6795bddf45a8d635ef8",
+      "bytes": 10688
+    },
+    {
+      "name": "stripe-best-practices",
+      "path": "stripe-best-practices/SKILL.md",
+      "sha256": "5062f0c980030af377a0ac33b77c9d233676e2ecbb57b3d3cd8734fc0da464b2",
+      "bytes": 2016
+    },
+    {
+      "name": "stripe-upgrade",
+      "path": "stripe-upgrade/SKILL.md",
+      "sha256": "1138f35352f4b2d0bad615cc88f9cfe7db4712ef639874f1cd04f319e07832f0",
+      "bytes": 5613
+    },
+    {
+      "name": "systematic-debugging",
+      "path": "systematic-debugging/SKILL.md",
+      "sha256": "4999cb851360485eca5074e727bbdd62ef20549c5d5b01216fcbf5831badb473",
+      "bytes": 9884
+    },
+    {
+      "name": "test-automator",
+      "path": "test-automator/SKILL.md",
+      "sha256": "82f1082c4de8b1a5194601f1cd495540611ee61f026ea4ad5eeaf3a2558c19cc",
+      "bytes": 10640
+    },
+    {
+      "name": "test-driven-development",
+      "path": "test-driven-development/SKILL.md",
+      "sha256": "7dee67b4af6bdccc7a914ca34533184d64592d0f5b23aeae631538168db14994",
+      "bytes": 9867
+    },
+    {
+      "name": "use-railway",
+      "path": "use-railway/SKILL.md",
+      "sha256": "8608409137ada8a1b6258075fe0dc841ccce3cf5afd5179910e459593fcf7510",
+      "bytes": 9941
+    },
+    {
+      "name": "varlock",
+      "path": "varlock/SKILL.md",
+      "sha256": "1548230c6144ead7d00d53a37420a39ef3477d20fdcbf9760668153dfe72f5fc",
+      "bytes": 9706
+    },
+    {
+      "name": "verification-before-completion",
+      "path": "verification-before-completion/SKILL.md",
+      "sha256": "ea52d15aabaf72bc6b558efe2c126f161b53961090ddcd712000273bfe8c7b6c",
+      "bytes": 4201
+    },
+    {
+      "name": "webapp-testing",
+      "path": "webapp-testing/SKILL.md",
+      "sha256": "51b7349e77ec63b7744a6f63647e7566a0b4d2e301121cc10e8c2113af6556a2",
+      "bytes": 3913
+    },
+    {
+      "name": "writing-plans",
+      "path": "writing-plans/SKILL.md",
+      "sha256": "d936159ad11f2e79ba8ae8b8653f87bb924ddaf78ae11dc3a424b4032ad1bd23",
+      "bytes": 5399
+    }
+  ]
+}
