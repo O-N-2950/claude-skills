@@ -22,7 +22,7 @@ Rule: UNKNOWN remains UNKNOWN. PARTIAL does not count as attained.
 | 1 | Catalogue canonique | PARTIAL | README inventorie 19 skills ; exhaustivité à certifier |
 | 2 | Identité unique | PARTIAL | Catalogue nommé ; bundles à auditer |
 | 3 | Provenance | PARTIAL | README référence plusieurs sources ; audit complet requis |
-| 4 | Version maîtrisée | UNKNOWN | Versions/pins à auditer |
+| 4 | Version maîtrisée | PARTIAL | Catalogue de 30 fichiers avec empreintes ; politique de versions et pins consommateurs à auditer |
 | 5 | Installation reproductible | PARTIAL | Procédure GitHub indiquée ; smoke à certifier |
 | 6 | Contrat d'usage | UNKNOWN | Audit de chaque skill requis |
 | 7 | Zéro secret | UNKNOWN | Scan dépôt/bundles requis |
@@ -39,3 +39,16 @@ Rule: UNKNOWN remains UNKNOWN. PARTIAL does not count as attained.
 | 18 | Definition of 100% | INCOMPLETE | Dépend de NS-01 à NS-17 |
 
 Updated: 2026-10-02
+
+
+## Lot 05.11.2026 — inventaire réel et rattachement aux autorités
+
+- 30 SKILL.md inventoriés, contre 19 annoncés dans l’ancien README.
+- `catalog.json` contient chemins, tailles et SHA-256 ; le contrôleur détecte une
+  modification de bundle non répercutée dans l’inventaire.
+- `docs/USAGE.md` relie le catalogue aux autorités NEO Core, Factory et produit,
+  limite Railway aux cibles vérifiées et ne revendique aucune installation client.
+- T0 local : inventaire et empreintes vérifiés par `python scripts/catalog.py --check`.
+- Aucun SKILL.md modifié ; provenance, licences, sécurité et usage réel restent
+  à auditer. NS-01 PARTIAL, NS-04 PARTIAL (identité des fichiers seulement).
+- Certification NEO CI et diffusion des modifications : à vérifier sur le SHA final.

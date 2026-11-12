@@ -2,7 +2,7 @@
 
 > Skills Claude personnalisés pour tous les projets O-N-2950
 
-**19 skills** couvrant sécurité, déploiement Railway, Stripe, PostgreSQL, tests, marketing.
+**30 skills** couvrant sécurité, déploiement Railway, Stripe, PostgreSQL, tests, marketing.
 
 ---
 
@@ -19,7 +19,7 @@
 
 | Skill | Source | Projets cibles |
 |-------|--------|----------------|
-| `use-railway` | railwayapp OFFICIEL | TOUS (deploy, logs, vars, health) |
+| `use-railway` | railwayapp OFFICIEL | Uniquement produits dont Railway est la plateforme vérifiée |
 | `postgres` | sanjay3290 | winwin-v2, wolf-saas, swissrh, mekano |
 | `postgres-best-practices` | supabase OFFICIEL | winwin-v2, provis |
 | `webapp-testing` | anthropics OFFICIEL | immo-cool, peps-v2-pwa, wolf-saas |
@@ -52,6 +52,19 @@
 
 ---
 
-## ⚡ Installation Claude.ai
+## Catalogue vérifiable et chargement
 
-Settings → Skills → Add skill → GitHub → `O-N-2950/claude-skills`
+[Inventaire complet et empreintes](catalog.json) · [Contrat d’usage et autorités](docs/USAGE.md).
+
+Le catalogue réel comporte **30 compétences** : la sélection ci-dessus n’est pas
+exhaustive. Le chargement dépend du client ; aucune installation n’est inférée
+de la présence du dépôt. Épingler une révision revue et charger le bundle utile.
+
+```sh
+python scripts/catalog.py
+python scripts/catalog.py --check
+```
+
+Les empreintes vérifient l’inventaire, pas la sécurité ou la provenance des bundles.
+La plateforme du produit, sa North Star et la doctrine NEO Core épinglée priment
+sur les exemples historiques. Voir [PROGRESS.md](docs/PROGRESS.md).
